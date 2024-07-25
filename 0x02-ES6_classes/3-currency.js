@@ -1,4 +1,4 @@
-xport default class Currency {
+export default class Currency {
   constructor(code, name) {
     this.code = code;
     this.name = name;
