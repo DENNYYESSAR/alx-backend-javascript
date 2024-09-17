@@ -19,7 +19,7 @@ const readDatabase = (dataPath) => new Promise((resolve, reject) => {
       if (data) {
         const fileLines = data
           .toString('utf-8')
-          .trim()i
+          .trim()
           .split('\n');
         const studentGroups = {};
         const dbFieldNames = fileLines[0].split(',');
